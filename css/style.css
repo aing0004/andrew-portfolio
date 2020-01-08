@@ -4,19 +4,19 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'sunflora';
+	font-family: 'sauvage';
 }
 h1{
 	font-size: 50px;
 }
 @font-face {
-    font-family: 'sunflora';
-    src: url(font/sunflora.otf);
-    src: url(font/sunflora.otf) format('embedded-opentype'),
-    url(font/sunflora.otf) format('woff2'),
-    url(font/sunflora.otf) format('woff'),
-    url(font/sunflora.otf) format('truetype'),
-    url(font/sunflora.otf) format('svg');
+    font-family: 'sauvage';
+    src: url(font/sauvage.ttf);
+    src: url(font/sauvage.ttf) format('embedded-opentype'),
+    url(font/sauvage.ttf) format('woff2'),
+    url(font/sauvage.ttf) format('woff'),
+    url(font/sauvage.ttf) format('truetype'),
+    url(font/sauvage.ttf) format('svg');
 }
 .row-about, .row-photography, .row-collages, .row-editorial, .row-commissions{
 	text-align: center;
@@ -118,6 +118,7 @@ html,body{
 .title-painting{
 	padding-top: 100px;
 }
+/* Footer Styling */
 #footer, .footer-bottom{
 	background-color: black;
 	position:absolute;
@@ -127,11 +128,6 @@ html,body{
 	font-size: 15px;
 	text-align: center;
 	padding-top: 20px;
-}
-.collage-preview, .commissions-preview{
-	height: 554.98px;
-	width: 100%;
-	object-fit: cover;
 }
 /* button styling */
 .btn btn-primary{
@@ -208,7 +204,9 @@ input[type=submit] {
   border: none;
   cursor: pointer;
 }
-
+.section-contact-page{
+	background-color:#D5E0FC;
+}
 input[type=submit]:hover {
   background-color: #6DD1FB;
 }
@@ -398,7 +396,7 @@ img{
 	color: #5E0001;
 }
 
-/* Personal Photography*/
+/* Photography Page Styling*/
 .title-personal, .title-concert, .description-concert{
 	text-align: center;
 }
@@ -430,9 +428,11 @@ img{
 .section-concert{
 	background-color: #BCD0FF;
 }
-.section-contact-page{
-	background-color:#D5E0FC;
+.concert-top{
+	padding-top: 0px;
 }
+
+/* Collage Page Styling */
 .blkskn-mag{
 	padding: 40px;
 }
@@ -458,7 +458,4 @@ img{
 .description-editorial{
 	color: white;
 	text-align: center;
-}
-.concert-top{
-	padding-top: 0px;
 }
