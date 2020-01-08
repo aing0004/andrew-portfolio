@@ -18,6 +18,7 @@ h1{
     url(font/sauvage.ttf) format('truetype'),
     url(font/sauvage.ttf) format('svg');
 }
+/* index styling */
 .row-about, .row-photography, .row-collages, .row-editorial, .row-commissions{
 	text-align: center;
 }
@@ -140,7 +141,7 @@ html,body{
 .button{
 	border: none;
 }
-
+/* index styling */
 .description-collages, .description-photography, .description-commissions{
 	text-align: center;
 }
@@ -346,7 +347,6 @@ form{
 }.contact-carousel{
 	padding-top: 100px;
 }
-
 /* Navbar Styling */
 .navbar-nav a:hover{
 	background-color: #6DD1FB !important;
