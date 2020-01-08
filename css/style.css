@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
 	font-size: 50px;
 }
+/*
 @font-face {
     font-family: 'sauvage';
     src: url(css/sauvage.ttf);
@@ -16,8 +17,10 @@ h1{
     url(css/sauvage.ttf) format('woff2'),
     url(css/sauvage.ttf) format('woff'),
     url(css/sauvage.ttf) format('truetype'),
-    url(css/sauvage.ttf) format('svg');
+	url(css/sauvage.ttf) format('svg');
+	font-style: normal;
 }
+*/
 /* index styling */
 .row-about, .row-photography, .row-collages, .row-editorial, .row-commissions{
 	text-align: center;
