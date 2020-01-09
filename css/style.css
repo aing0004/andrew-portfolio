@@ -12,12 +12,12 @@ h1{
 
 @font-face {
     font-family: 'sauvage';
-    src: url(andrew.portfolio/font/sauvage.ttf);
-    src: url(andrew.portfolio/font/sauvage.ttf) format('embedded-opentype'),
-    url(andrew.portfolio/font/sauvage.ttf) format('woff2'),
-    url(andrew.portfolio/font/sauvage.ttf) format('woff'),
-    url(andrew.portfolio/font/sauvage.ttf) format('truetype'),
-	url(andrew.portfolio/font/sauvage.ttf) format('svg');
+    src: url(andrew.portfolio/fonts/sauvage.ttf);
+    src: url(andrew.portfolio/fonts/sauvage.ttf) format('embedded-opentype'),
+    url(andrew.portfolio/fonts/sauvage.ttf) format('woff2'),
+    url(andrew.portfolio/fonts/sauvage.ttf) format('woff'),
+    url(andrew.portfolio/fonts/sauvage.ttf) format('truetype'),
+	url(andrew.portfolio/fonts/sauvage.ttf) format('svg');
 	font-style: normal;
 }
 
