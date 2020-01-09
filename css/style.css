@@ -12,15 +12,14 @@ h1{
 
 @font-face {
     font-family: 'sauvage';
-    src: url(andrew.portfolio/fonts/sauvage.ttf);
-    src: url(andrew.portfolio/fonts/sauvage.ttf) format('embedded-opentype'),
-    url(andrew.portfolio/fonts/sauvage.ttf) format('woff2'),
-    url(andrew.portfolio/fonts/sauvage.ttf) format('woff'),
-    url(andrew.portfolio/fonts/sauvage.ttf) format('truetype'),
-	url(andrew.portfolio/fonts/sauvage.ttf) format('svg');
-	font-style: normal;
+    src: url(sauvage.ttf);
+    src: url(sauvage.ttf) format('embedded-opentype'),
+    url(sauvage.ttf) format('woff2'),
+    url(sauvage.ttf) format('woff'),
+    url(sauvage.ttf) format('truetype'),
+url(sauvage.ttf) format('svg');
+font-style: normal;
 }
-
 /* index styling */
 .row-about, .row-photography, .row-collages, .row-editorial, .row-commissions{
 	text-align: center;
