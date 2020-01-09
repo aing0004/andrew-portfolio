@@ -4,21 +4,10 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'sauvage';
+	font-family: 'Abril Fatface', cursive;
 }
 h1{
 	font-size: 50px;
-}
-
-@font-face {
-    font-family: 'sauvage';
-    src: url(sauvage.ttf);
-    src: url(sauvage.ttf) format('embedded-opentype'),
-    url(sauvage.ttf) format('woff2'),
-    url(sauvage.ttf) format('woff'),
-    url(sauvage.ttf) format('truetype'),
-	url(sauvage.ttf) format('svg');
-font-style: normal;
 }
 /* index styling */
 .row-about, .row-photography, .row-collages, .row-editorial, .row-commissions{
