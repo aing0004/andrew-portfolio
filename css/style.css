@@ -1,0 +1,461 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'sauvage';
+}
+h1{
+	font-size: 50px;
+}
+@font-face {
+    font-family: 'sauvage';
+    src: url(sauvage.ttf);
+    src: url(sauvage.ttf) format('embedded-opentype')
+    url(sauvage.ttf) format('woff2'),
+    url(sauvage.ttf) format('woff'),
+    url(sauvage.ttf) format('truetype'),
+	url(sauvage.ttf) format('svg');
+}
+/* index styling */
+.row-about, .row-photography, .row-collages, .row-editorial, .row-commissions{
+	text-align: center;
+}
+.bg-light{
+	background-color:#131216 !important;
+}
+.navbar, .navbar-expand-sm a{
+	color:#E4D9D9 !important;
+	background-color: black;
+}
+.portfolio{
+	background-color:#95CEF7;
+}
+html,body{
+    margin:0;
+    height:100%;
+}
+.genesis{
+	width: 100%;
+	height: auto;
+}
+.genesis2{
+	padding-bottom: 30px;
+}
+.section-photography{
+	background-color: white;
+}
+.title-photography, .title-about{
+	text-align: center;
+	padding: 60px;
+	padding-bottom: 0px;
+}
+.name, .description, .description-extra, .title-collages, .description-collages{
+	color: white;
+	text-align: center;
+}
+.title-collages{
+	color: white;
+	padding: 60px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.section-collages, .section-extra-collages{
+	background-color: black;
+}
+.section-painting{
+	background-color:#F2786D;
+}
+.home-experimental{
+	padding: 95px;
+	background-color: black;
+}
+.row-description{
+	text-align: center;
+	background-color: black;
+}
+.description-photography, .description-collages, .description-editorial, .description-commissions, .description-pm, .description-painting, .description-extra{
+	padding-bottom: 20px;
+}
+.janelle{
+	height: 100%;
+	width: 100%;
+}
+.description-painting{
+	padding-bottom: 20px;
+}
+.container-fluid{
+	padding: 0px;
+}
+.title-blkskn{
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center
+}
+.title-genesis{
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.title-bombay{
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.title-pm, .title-painting{
+	padding-top: 40px;
+	text-align: center;
+}
+.description-extra, .description-painting{
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+}
+.title-extra{
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+.title-painting{
+	padding-top: 100px;
+}
+/* Footer Styling */
+#footer, .footer-bottom{
+	background-color: black;
+	position:absolute;
+	height: 100px;
+	width: 100%;
+	color:#D2F6FE;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 20px;
+}
+/* button styling */
+.btn btn-primary{
+	text-align: center;
+}
+.wrapper{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.button{
+	border: none;
+}
+/* index styling */
+.description-collages, .description-photography, .description-commissions{
+	text-align: center;
+}
+.portfolio{
+	background-color:#6DD1FB;
+}
+.about{
+	background:#6DD1FB;
+	padding: 80px 0;
+}
+.ig-icon, .fb-icon{
+	color: white;
+}
+.gaga, .janelle{
+	padding-bottom: 10px;
+}
+.home-description-photography, .home-description-collages, .home-description-commissions{
+	text-align: center;
+	color:#D2F6FE;
+	padding-top: 10px;
+}
+.home-photography, .home-collages, .home-commissions{
+	text-align: center;
+	color:#D2F6FE;
+}
+
+/*Commissions Page */
+.row-commissions{
+	background-color: #6DD1FB;
+}
+.description-bombay{
+	padding-bottom: 20px;
+}
+.title-commissions{
+	text-align: center;
+	padding: 60px;
+	padding-bottom: 0px;
+}
+.row-commissions{
+	padding-bottom: 0px;
+	background-color: #6DD1FB;
+}
+.section-commissions{
+	background-color: #6DD1FB;
+}
+
+/*Contact Page */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: #D2F6FE;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+.section-contact-page{
+	background-color:#D5E0FC;
+}
+input[type=submit]:hover {
+  background-color: #6DD1FB;
+}
+.contact-title{
+	padding-top: 100px;
+}
+form{
+	padding-bottom: 50px;
+}
+
+/*Photography Page */
+.section-clouds-sunsets{
+	background-color: black;
+}
+.title-pm, .description-pm{
+	color: black;
+}
+
+/* Footer */
+.social-media-icons, .phone, .mobile{
+	color: #D2F6FE;
+}
+.socials{
+	text-align: center;
+	margin-top: 20px;
+	background-color: black;
+}
+.social-media-icons{
+	padding: 10px;
+}
+.mobile{
+	margin: 0px;
+}
+.phone{
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+  z-index: 1000;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #6DD1FB;
+  color: #fff;  
+}
+
+@media(max-width: 992px) {
+  .container { padding: 20px 100px; }
+  #back-to-top-btn { font-size: 22px; width: 40px; height: 40px; bottom: 15px; right: 15px; }
+}
+@media(max-width:768px) {
+  body { font-size: 16px; }
+  .container { padding: 10px 50px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 22px; }
+  hr { margin: 30px 0; }
+  #back-to-top-btn { font-size: 18px; width: 32px; height: 32px; bottom: 6px; right: 6px; }
+}
+
+/* Animations */
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+/* zoomIn */
+/* @keyframes btnEntrance { 
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    opacity: 1;
+  }    
+} */
+
+/* fadeInUp */
+@keyframes btnEntrance {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.btnExit {
+  animation-duration: 0.25s;
+  animation-fill-mode: both;  
+  animation-name: btnExit;
+}
+/* zoomOut */
+/* @keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+} */
+
+/* fadeOutDown */
+@keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}.contact-carousel{
+	padding-top: 100px;
+}
+/* Navbar Styling */
+.navbar-nav a:hover{
+	background-color: #6DD1FB !important;
+	color: #D2F6FE !important;
+}
+
+@media screen and (max-width: 768px){
+	.experimental{
+		display: none;
+	}
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+
+/* Index Styling */
+.home-photography-section{
+	background-color: #A00003;
+}
+.home-photography, .home-description-photography, .btn-photo{
+	color:#FCC9CA !important;
+}
+.home-photography, .home-commissions, .home-collages{
+	padding-top: 40px;
+}
+.home-collages-section{
+	background-color: #E4A91C;
+}
+.home-collages, .btn-collages, .home-description-collages{
+	color:#FFEDC4 !important;
+}
+.btn-commissions{
+	color: #D2F6FE;
+	background-color:#6DD1FB;
+}
+.btn-photo{
+	background-color:#A00003;
+}
+.btn-collages{
+	background-color: #E4A91C;
+}
+.btn-collages:hover, .fa-cut:hover{
+	color: #997E03;
+}
+.btw-photo:hover, .fa-camera:hover{
+	color: #5E0001;
+}
+
+/* Photography Page Styling*/
+.title-personal, .title-concert, .description-concert{
+	text-align: center;
+}
+.title-personal{
+	padding-top: 100px;
+}
+.description-concert{
+	padding-bottom: 20px;
+}
+.clouds-bottom{
+	padding-bottom: 40px;
+}
+.title-contact{
+	text-align: center;
+}
+.sunset, .clouds, .clouds-bottom{
+	padding: 20px;
+}
+.clouds-bottom{
+	padding-bottom: 40px;
+}
+.section-clouds-sunsets{
+	background-color:#FFEDC4;
+}
+.concert{
+	padding: 20px;
+	padding-bottom: 20px;
+}
+.section-concert{
+	background-color: #BCD0FF;
+}
+.concert-top{
+	padding-top: 0px;
+}
+
+/* Collage Page Styling */
+.blkskn-mag{
+	padding: 40px;
+}
+.blkskn-mag-top{
+	padding-top: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+.blkskn-mag-bottom{
+	padding-bottom: 0px;
+	padding: 40px;
+}
+.title-editorial{
+	padding-top: 100px;
+	padding-bottom: 10px;
+	color: white;
+	text-align: center;
+}
+.section-editorial{
+	background-color: #000023;
+}
+.description-editorial{
+	color: white;
+	text-align: center;
+}
