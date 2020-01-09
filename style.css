@@ -11,12 +11,12 @@ h1{
 }
 @font-face {
     font-family: 'sauvage';
-    src: url(fonts/sauvage.ttf);
-    src: url(fonts/sauvage.ttf) format('embedded-opentype')
-    url(fonts/sauvage.ttf) format('woff2'),
-    url(fonts/sauvage.ttf) format('woff'),
-    url(fonts/sauvage.ttf) format('truetype'),
-	url(fonts/sauvage.ttf) format('svg');
+    src: url(sauvage.ttf);
+    src: url(sauvage.ttf) format('embedded-opentype')
+    url(sauvage.ttf) format('woff2'),
+    url(sauvage.ttf) format('woff'),
+    url(sauvage.ttf) format('truetype'),
+	url(sauvage.ttf) format('svg');
 }
 /* index styling */
 .row-about, .row-photography, .row-collages, .row-editorial, .row-commissions{
