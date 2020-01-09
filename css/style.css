@@ -17,7 +17,7 @@ h1{
     url(sauvage.ttf) format('woff2'),
     url(sauvage.ttf) format('woff'),
     url(sauvage.ttf) format('truetype'),
-url(sauvage.ttf) format('svg');
+	url(sauvage.ttf) format('svg');
 font-style: normal;
 }
 /* index styling */
